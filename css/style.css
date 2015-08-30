@@ -1,1 +1,9 @@
+.logo-atilla {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
 
+.logo-atilla img {
+  width: 200px;
+}
