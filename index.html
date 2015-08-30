@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="fr">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Let It Code - by ATILLA</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/theme/blood.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- 960 Grid -->
+		<link rel="stylesheet" href="http://960.gs/css/960.css">
+
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="css/font-awesome.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- <div class="logo-atilla">
+				<img src="img/logo.png"/>
+			</div> -->
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Let it code</h1>
+					<h3>Comment bien débuter la programmation ?</h3>
+					<footer>
+						<small>Antoine Girard, Flavien Raynaud</small><br>
+						<small>Mercredi 16 septembre 2015</small>
+					</footer>
+				</section>
+
+				<section>
+					<h2>Au programme...</h2>
+					<div class="container_12">
+						<div class="grid_4 fragment" data-fragment-index="0">
+							<h2><i class="fa fa-history"></i></h2>
+							<h5>Notions historiques</h5>
+						</div>
+						<div class="grid_4 fragment" data-fragment-index="1">
+							<h2><i class="fa fa-book"></i></h2>
+							<h5>Pourquoi ? Comment ?</h5>
+						</div>
+						<div class="grid_4 fragment" data-fragment-index="2">
+							<h2><i class="fa fa-level-up"></i></h2>
+							<h5>Expériences personnelles</h5>
+						</div>
+					</div>
+				</section>
+
+				<section>
+					<h2>L'invention de l'ordinateur</h2>
+					<p>
+						L'idée de créer une machine permettant de résoudre différents problèmes.
+					</p>
+					<p>
+						C'est à dire l'idée de créer une machine programmable.
+					</p>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
