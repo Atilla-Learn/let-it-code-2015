@@ -7,3 +7,9 @@
 .logo-atilla img {
   width: 200px;
 }
+
+.img-no-style {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
