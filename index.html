@@ -214,8 +214,8 @@
 								<ul>
 									<li>Éviter la fraude</li>
 									<li>Popularité d'une page</li>
-									<li>Surfeur aléatoire</li>
-									<li>$~~~~~\rightarrow$ Probabilité</li>
+									<li>Lien page populaire</li>
+									<li>$\rightarrow$ Rend populaire</li>
 								</ul>
 							</div>
 						</div>
@@ -235,7 +235,8 @@
 
 							<div class="grid_6 fragment" style="margin-top: 5%">
 								<p>
-									Implémentation naïve : <br>50 lignes de code
+									Surfeur aléatoire<br>
+									$\rightarrow$ Probabilité
 								</p>
 
 								<p>
@@ -280,12 +281,12 @@
 
 				<!-- Algo et Programmation -->
 				<section>
-					<h2>Algorithmique<br>programmation</h2>
-					<p>
-						Quelles différences ?
-					</p>
-				</section>
-				<section class="stack">
+					<section>
+						<h2>Algorithmique<br>programmation</h2>
+						<p>
+							Quelles différences ?
+						</p>
+					</section>
 					<section>
 						<h3>Un algorithme</h3>
 
@@ -311,6 +312,26 @@
 					</section>
 
 					<section>
+						<div class="large-text">Ordinateurs humains</div>
+
+						<div class="container_12">
+							<div class="grid_6">
+								<img src="img/Computers_NACA.jpg" class="img-no-style" height="300px"/>
+								<small>NACA - « Computer room »</small>
+							</div>
+							<div class="grid_6" style="margin-top: 10%">
+								<ul>
+									<li>Computer =<br>« one who computes »<br>« celui qui fait des calculs »
+								</ul>
+							</div>
+						</div>
+
+						<blockquote class="fragment" style="width: 70vw; margin-left: -10vw">
+							« L'ordinateur humain est supposé suivre des règles fixées ; il n'a pas le pouvoir d'y déroger » - Alan Turing
+						</blockquote>
+					</section>
+
+					<section>
 						<h2>Un programme ?</h2>
 
 						<h1 class="fragment"><i class="fa fa-file-text"></i>   <i class="fa fa-arrow-right"></i>    <i class="fa fa-file-code-o"></i></h1>
@@ -332,6 +353,10 @@
 						<h2>S'intéresser à...</h2>
 						<div class="large-text">Architecture des ordinateurs</div>
 						<div class="fragment large-text">…et fonctionnement</div>
+
+						<p class="fragment">
+							Exemple :<br>infinité de nombres • nombres infinis<br>mémoire finie
+						</p>
 					</section>
 				</section>
 
@@ -349,21 +374,25 @@
 						<h4>Structures de données</h4>
 						<br>
 						<div class="container_12">
-							<div class="grid_6 fragment">
-								<i class="fa fa-4x fa-stack-overflow"></i>
+							<div class="grid_4 fragment">
+								<i class="fa fa-3x fa-list"></i>
+								<br><br>
+								<h5><small>Tableaux</small></h5>
+							</div>
+							<div class="grid_4 fragment">
+								<i class="fa fa-3x fa-stack-overflow"></i>
 								<br><br>
 								<h5><small>Piles</small></h5>
 							</div>
-							<div class="grid_6 fragment">
-								<i class="fa fa-4x fa-users"></i>
+							<div class="grid_4 fragment">
+								<i class="fa fa-3x fa-users"></i>
 								<br><br>
 								<h5><small>Files</small></h5>
 							</div>
 						</div>
 					</section>
 					<section>
-						<h4>Quelques algorithmes de bases...</h4>
-						<br>
+						<h4>Quelques algorithmes de base...</h4>
 						<div class="container_12">
 							<div class="grid_6">
 								<i class="fa fa-4x fa-sort-amount-asc"></i>
@@ -372,10 +401,10 @@
 								<i class="fa fa-4x fa-sort-amount-desc"></i>
 							</div>
 						</div>
-						<br>
 						<h3>Algorithmes de tri</h3>
-						<h4>Selection Sort, Insertion Sort, Merge Sort, Heap Sort, Quick Sort...</h4>
-						<h4></h4>
+						<p>Selection Sort, Insertion Sort, Merge Sort, Heap Sort, Quick Sort...</p>
+
+						<p class="fragment">Complexité d'un algorithme (Donald Knuth)</p>
 					</section>
 				</section>
 				<section class="stack">
@@ -407,7 +436,11 @@
 							chemin » - Kenneth Love
 						</blockquote>
 
-						<pre class="fragment"><code class="python">
+						<small>
+							<a href="http://lucumr.pocoo.org/2011/7/9/python-and-pola/">http://lucumr.pocoo.org/2011/7/9/python-and-pola/</a>
+						</small>
+
+						<pre class="fragment" style="margin-bottom: -10%"><code class="python">
 >>> 1 + 2
 3
 >>> print("Hello, world!")
